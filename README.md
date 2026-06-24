@@ -1,4 +1,4 @@
-# Glossário Claude Code — Modo IA Saúde
+# Glossário Estrateg[IA]
 
 Glossário visual standalone de Claude Code e Vibe Coding, explicado com analogias hospitalares pra gestores e coordenadores da saúde.
 
@@ -17,7 +17,6 @@ Glossário visual standalone de Claude Code e Vibe Coding, explicado com analogi
 O glossário precisa de servidor estático (não funciona direto com `file://` por causa do fetch):
 
 ```bash
-# Servidor Node já incluso no projeto (porta 5678):
 cd "C:/Claude Code"
 node server.js
 ```
@@ -28,24 +27,24 @@ Abre: `http://localhost:5678/projetos/ia-saude/Modo%20IA%20Saude/Glossario/`
 
 O workflow `.github/workflows/deploy.yml` já está pronto. Para publicar:
 
-1. Crie o repo: https://github.com/new — nome `modo-ia-saude-glossario`, **public**
+1. Crie o repo: https://github.com/new — nome `estrategia-glossario`, **public**
 2. Faça push (instruções abaixo)
 3. Settings → Pages → Source: **GitHub Actions**
-4. Em ~1min está no ar: `https://SEU-USUARIO.github.io/modo-ia-saude-glossario/`
+4. Em ~1min está no ar
 
 ## Estrutura
 
 ```
 Glossario/
-├── index.html                    ← glossário (HTML standalone)
-├── termos.json                   ← 197 termos em JSON
-├── gesti.svg                     ← logo
+├── index.html      ← glossário
+├── termos.json     ← 197 termos em JSON
+├── logo.svg        ← símbolo Estrateg[IA]
 ├── README.md
 └── .github/
     └── workflows/
-        └── deploy.yml            ← deploy automático no GitHub Pages
+        └── deploy.yml
 ```
 
 ## Licença
 
-Uso interno do Modo IA Saúde.
+Uso interno do Estrateg[IA] — Inteligência que move a gestão em saúde.
