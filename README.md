@@ -36,9 +36,8 @@ O workflow `.github/workflows/deploy.yml` já está pronto. Para publicar:
 
 ```
 Glossario/
-├── index.html      ← glossário
+├── index.html      ← glossário (logo tipográfica Estrateg[IA] inline)
 ├── termos.json     ← 197 termos em JSON
-├── logo.svg        ← símbolo Estrateg[IA]
 ├── README.md
 └── .github/
     └── workflows/
